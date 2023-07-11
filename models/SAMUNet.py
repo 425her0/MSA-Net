@@ -65,8 +65,8 @@ class SAMUNet(nn.Module):
             output_channel = self.filters[1:5][3-idx]
 
             for i in range(self.num_repeats[3-idx]):
-                eval(self.de_block[3-idx]).append(ShuffleV2Block(input_channel // 2, output_channel,
-                                                    mid_channels=output_channel // 2, ksize=3, stride=1))
+                eval(self.de_block[3-idx]).append(ShuffleV2Block(input_channel//2, output_channel,
+                                                    mid_channels=output_channel//2, ksize=3, stride=1))
                 input_channel = output_channel
 
         self.de_block_0 = nn.Sequential(*self.de_block_0)
