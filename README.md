@@ -2,8 +2,8 @@
 Code for  Neural Networks paper ‘SAM-UNet：A stacked architecture with multi-unit for semantic segmentation from urban scenes’
 ## Requirements
 * python 3.8
-* pytorch 1.8.1
-* Cuda  11.1
+* pytorch 1.11.0
+* Cuda  11.3
 ## Results on Cityscapes test set(Anonymous Link)
 * UNet:
   https://www.cityscapes-dataset.com/anonymous-results/?id=98b31a77d61d1ec3c42412c7cb7291c75fbb1b382dbdb40983c92aa0420e0526
