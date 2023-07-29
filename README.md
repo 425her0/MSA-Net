@@ -17,5 +17,6 @@ Code for  Neural Networks paper ‘SAM-UNet：A stacked architecture with multi-
   https://www.cityscapes-dataset.com/anonymous-results/?id=a962c6795c460027641a810a627ec30a8c52a4868eff7bf8f5f50a1b940f6a1b
 * UNet + ESCC:
   https://www.cityscapes-dataset.com/anonymous-results/?id=2bca6283315dfe057235e9fca9707a329719a879e7fc0ac0089791ab8adbb394
-## A demo video of segmentation: https://youtube.com/shorts/_H0DLRKsO7Q?feature=share
+## A demo video of segmentation: 
+* https://youtube.com/shorts/_H0DLRKsO7Q?feature=share
   
