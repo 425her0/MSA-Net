@@ -8,7 +8,7 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 * Cuda  11.3
 
 ## 3.Visualization results of MSA-Net on Cityscapes val set.
-### From left to right are input images, ground truth, segmentation outputs.
+### *From left to right are input images, ground truth, segmentation outputs.
 ![Image text](results/Fig.6.jpg)
 
 ## 4.Ablation study results of MSA-Net on Cityscapes test dataset and enhanced PASCAL VOC 2012 val dataset.
@@ -19,7 +19,7 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 |   3   |     ✓    |   ✓  |   ✓  |      |    72.6    |       64.2       |  7.1M  |
 |   4   |     ✓    |   ✓  |   ✓  |   ✓  |    73.6    |       65.3       |  7.6M  |
 ## 5.Comparisons with State-of-the-art Results
-### 'ImN' and 'Coa.' mean pre-training model using ImageNet dataset or the coarse annotation set of Cityscapes dataset. '–' indicates that the corresponding result is not provided by the method.
+### *'ImN' and 'Coa.' mean pre-training model using ImageNet dataset or the coarse annotation set of Cityscapes dataset. '–' indicates that the corresponding result is not provided by the method.
 |    Model   | Extra data | Resolution | mIoU | Params |
 |:----------:|:----------:|:----------:|:----:|:------:|
 |   SegNet   |     ImN    |   640×360  | 57.0 |  29.5M |
@@ -40,8 +40,8 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 |    Ours    |     no     |   512×512  | 73.6 |  7.6M  |
 
 ## 6.Comparisons between different channel depths on Cityscapes. 
-### Performed on a single RTX 4090 GPU
-### Note that the format {., ., ., .,} represents the channel depth in encoder of SAM-UNet, and the channel depth in the decoder and encoder are symmetric. r represents the channel compression ratio.
+### *Performed on a single RTX 4090 GPU
+### *Note that the format {., ., ., .,} represents the channel depth in encoder of SAM-UNet, and the channel depth in the decoder and encoder are symmetric. r represents the channel compression ratio.
 |      Model      |            Channel depth           | mIoU | Params | GFLOPs |  FPS |
 |:---------------:|:----------------------------------:|:----:|:------:|:------:|:----:|
 |     SAM-UNet    | {64, 128, 256, 512, 1024 \| r = 1} | 74.7 |  7.6M  |  43.7  | 31.0 |
