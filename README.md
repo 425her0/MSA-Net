@@ -18,6 +18,13 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 |   3   |     ✓    |   ✓  |   ✓  |      |    72.6    |       64.2       |  7.1M  |
 |   4   |     ✓    |   ✓  |   ✓  |   ✓  |    73.6    |       65.3       |  7.6M  |
 
+| Index | MSIC | DLED | ESCC | UNet | mIoU |
+|-------|------|------|------|------|------|
+|   1   |   ✓  |      |      |      | 63.3 |
+|   2   |   ✓  |   ✓  |      |      | 65.1 |
+|   3   |   ✓  |   ✓  |   ✓  |      | 72.6 |
+|   4   |   ✓  |   ✓  |   ✓  |   ✓  | 73.6 |
+
 ## 5.Comparisons with State-of-the-art Results
 ### 'ImN' and 'Coa.' mean pre-training model using ImageNet dataset or the coarse annotation set of Cityscapes dataset. '–' indicates that the corresponding result is not provided by the method.
 |    Model   | Extra data | Resolution | mIoU | Params |
