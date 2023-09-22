@@ -10,7 +10,7 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 ## 3.Visualization results of MSA-Net on Cityscapes val set. From left to right are input images, ground truth, segmentation outputs.
 ![Image text](results/Fig.6.jpg)
 
-## 4.Ablation study results of MSA-Net
+## 4.Ablation study results of MSA-Net on Cityscapes test dataset and enhanced PASCAL VOC 2012 val dataset.
 | Index | Baseline | DLED | ESCC | MSIC | Cityscapes | VOC 2012 Augment | Params |
 |:-----:|:--------:|:----:|:----:|:----:|:----------:|:----------------:|:------:|
 |   1   |     ✓    |      |      |      |    63.3    |       45.5       |  31.0M |
