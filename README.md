@@ -31,6 +31,9 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 | Ghost-UNet |     no     |   512×512  | 73.2 |  5.8M  |
 |    Ours    |     no     |   512×512  | 73.6 |  7.6M  |
 
+
+
+
 ## 5.Results on Cityscapes test set(Anonymous Link)
 * [UNet(Baseline)](https://www.cityscapes-dataset.com/anonymous-results/?id=98b31a77d61d1ec3c42412c7cb7291c75fbb1b382dbdb40983c92aa0420e0526)
 * [Baseline + DLED(Stack-Net-More)](https://www.cityscapes-dataset.com/anonymous-results/?id=2578bf048dfc01c61d0fb3da8f95473f3329dff55ae071549d26eb56ecff9ea4)
