@@ -11,24 +11,24 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 ![Image text](results/Fig.6.jpg)
 
 ## Comparisons with State-of-the-art Results
-| Model      | Extra data | Resolution | mIoU | Params |
-|------------|------------|------------|------|--------|
-| SegNet     | ImN        | 640×360    | 57.0 | 29.5M  |
-| DeepLab    | ImN        | 1024×512   | 63.1 | 262.1M |
-| RefineNet  | ImN        | 1024×512   | 73.6 | 118.1M |
-| PSPNet     | ImN+Coa.   | 713×713    | 80.2 | 250.8M |
-| E-Net      | no         | 1024×512   | 58.3 | 0.36M  |
-| Fast-SCNN  | Coa.       | 1024×512   | 62.8 | 1.14M  |
-| CGNet      | no         | 1024×512   | 64.8 | 0.5M   |
-| ERF-Net    | no         | 1024×512   | 68.0 | 20.0M  |
-| DFA-Net B  | no         | 1024×1024  | 67.1 | 4.8M   |
-| AGLNet     | no         | 1024×512   | 70.1 | 1.12M  |
-| DFANet A   | no         | 1024×1024  | 71.3 | 7.8M   |
-| Bise-Netv1 | ImN        | 1024×512   | 71.4 | 5.8M   |
-| MFENet     | no         | 1024×512   | 72.4 | 8.0M   |
-| Bise-Netv2 | ImN        | 2048×1024  | 72.6 | -      |
-| Ghost-UNet | no         | 512×512    | 73.2 | 5.8M   |
-| Ours       | no         | 512×512    | 73.6 | 7.6M   |
+|    Model   | Extra data | Resolution | mIoU | Params |
+|:----------:|:----------:|:----------:|:----:|:------:|
+|   SegNet   |     ImN    |   640×360  | 57.0 |  29.5M |
+|   DeepLab  |     ImN    |  1024×512  | 63.1 | 262.1M |
+|  RefineNet |     ImN    |  1024×512  | 73.6 | 118.1M |
+|   PSPNet   |  ImN+Coa.  |   713×713  | 80.2 | 250.8M |
+|    E-Net   |     no     |  1024×512  | 58.3 |  0.36M |
+|  Fast-SCNN |    Coa.    |  1024×512  | 62.8 |  1.14M |
+|    CGNet   |     no     |  1024×512  | 64.8 |  0.5M  |
+|   ERF-Net  |     no     |  1024×512  | 68.0 |  20.0M |
+|  DFA-Net B |     no     |  1024×1024 | 67.1 |  4.8M  |
+|   AGLNet   |     no     |  1024×512  | 70.1 |  1.12M |
+|  DFANet A  |     no     |  1024×1024 | 71.3 |  7.8M  |
+| Bise-Netv1 |     ImN    |  1024×512  | 71.4 |  5.8M  |
+|   MFENet   |     no     |  1024×512  | 72.4 |  8.0M  |
+| Bise-Netv2 |     ImN    |  2048×1024 | 72.6 |    -   |
+| Ghost-UNet |     no     |   512×512  | 73.2 |  5.8M  |
+|    Ours    |     no     |   512×512  | 73.6 |  7.6M  |
 
 ## Results on Cityscapes test set(Anonymous Link)
 * [UNet(Baseline)](https://www.cityscapes-dataset.com/anonymous-results/?id=98b31a77d61d1ec3c42412c7cb7291c75fbb1b382dbdb40983c92aa0420e0526)
