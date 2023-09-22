@@ -13,4 +13,6 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 * [Baseline + ESCC](https://www.cityscapes-dataset.com/anonymous-results/?id=2bca6283315dfe057235e9fca9707a329719a879e7fc0ac0089791ab8adbb394)
 ## A demo video of segmentation: 
 * [YouTube](https://youtube.com/shorts/_H0DLRKsO7Q?feature=share)
+
+![Image text](results/Fig.6.jpg)
   
