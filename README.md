@@ -38,7 +38,7 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 | Bise-Netv2 |     ImN    |  2048×1024 | 72.6 |    -   |
 | Ghost-UNet |     no     |   512×512  | 73.2 |  5.8M  |
 |    Ours    |     no     |   512×512  | 73.6 |  7.6M  |
-### The comprehensive experiments show our MSA-Net achieves best trade-off on the Cityscapes dataset in terms of segmentation accuracy and parameters, and exhibits strong generalization on the enhanced PASCAL VOC 2012 dataset.
+***The comprehensive experiments show our MSA-Net achieves best trade-off on the Cityscapes dataset in terms of segmentation accuracy and parameters, and exhibits strong generalization on the enhanced PASCAL VOC 2012 dataset.
 ## 6.Comparisons between different channel depths on Cityscapes val dataset. 
 *Performed on a single RTX 4090 GPU
 <br />*Note that the format {., ., ., .,} represents the channel depth in encoder of SAM-UNet, and the channel depth in the decoder and encoder are symmetric. r represents the channel compression ratio.
