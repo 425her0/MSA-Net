@@ -12,7 +12,7 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 
 ## Comparisons with State-of-the-art Results
 
-
+\toprule
 Model      & Extra data & Resolution & mIoU & Params \\ \midrule
 SegNet     & ImN        & 640×360    & 57.0 & 29.5M  \\
 DeepLab    & ImN        & 1024×512   & 63.1 & 262.1M \\
@@ -30,7 +30,7 @@ MFENet     & no         & 1024×512   & 72.4 & 8.0M   \\
 Bise-Netv2 & ImN        & 2048×1024  & 72.6 & -      \\
 Ghost-UNet & no         & 512×512    & 73.2 & 5.8M   \\ \midrule
 Ours       & no         & 512×512    & 73.6 & 7.6M   
-
+\\ \bottomrule
 
 
 
