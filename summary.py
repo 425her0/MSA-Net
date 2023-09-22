@@ -1,7 +1,6 @@
 import torch
 from thop import clever_format, profile
 from torchsummary import summary
-
 from models.MSANet import MSANet
 
 if __name__ == "__main__":
