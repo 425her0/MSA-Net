@@ -1,6 +1,6 @@
 # MSA-Net
 Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation network based on UNet and ShuffleNetv2’
-![Image text](results/Fig.1.jpg)
+![Image text](results/Fig.1.png)
 ## Requirements
 * python 3.8
 * pytorch 1.11.0
