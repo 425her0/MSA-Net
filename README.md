@@ -11,6 +11,7 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 ![Image text](results/Fig.6.jpg)
 
 ## Comparisons with State-of-the-art Results
+### 'ImN' and 'Coa.' mean pre-training model using ImageNet dataset or the coarse annotation set of Cityscapes dataset. '–' indicates that the corresponding result is not provided by the method.
 |    Model   | Extra data | Resolution | mIoU | Params |
 |:----------:|:----------:|:----------:|:----:|:------:|
 |   SegNet   |     ImN    |   640×360  | 57.0 |  29.5M |
