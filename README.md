@@ -38,7 +38,9 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 | Ghost-UNet |     no     |   512×512  | 73.2 |  5.8M  |
 |    Ours    |     no     |   512×512  | 73.6 |  7.6M  |
 
-## 6.Comparisons between different channel depths on Cityscapes. Note that the format {., ., ., .,} represents the channel depth in encoder of SAM-UNet, and the channel depth in the decoder and encoder are symmetric. r represents the channel compression ratio.
+## 6.Comparisons between different channel depths on Cityscapes. 
+### Note that the format {., ., ., .,} represents the channel depth in encoder of SAM-UNet, and the channel depth in the decoder and encoder are symmetric.
+### r represents the channel compression ratio.
 |      Model      |            Channel depth           | mIoU | Params | GFLOPs |  FPS |
 |:---------------:|:----------------------------------:|:----:|:------:|:------:|:----:|
 |     SAM-UNet    | {64, 128, 256, 512, 1024 \| r = 1} | 74.7 |  7.6M  |  43.7  | 31.0 |
