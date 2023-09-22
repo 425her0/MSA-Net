@@ -1,4 +1,4 @@
-# SAM-UNet
+# MSA-Net
 Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation network based on UNet and ShuffleNetv2’
 ## Requirements
 * python 3.8
