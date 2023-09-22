@@ -4,7 +4,7 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 * python 3.8
 * pytorch 1.11.0
 * Cuda  11.3
-## Visualization results of SAM-UNet on Cityscapes val set. From left to right are input images, ground truth, segmentation outputs.
+## Visualization results of MSA-Net on Cityscapes val set. From left to right are input images, ground truth, segmentation outputs.
 ![Image text](results/Fig.6.jpg)
 ## Results on Cityscapes test set(Anonymous Link)
 * [UNet(Baseline)](https://www.cityscapes-dataset.com/anonymous-results/?id=98b31a77d61d1ec3c42412c7cb7291c75fbb1b382dbdb40983c92aa0420e0526)
