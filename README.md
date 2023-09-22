@@ -39,7 +39,7 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 | Ghost-UNet |     no     |   512×512  | 73.2 |  5.8M  |
 |    Ours    |     no     |   512×512  | 73.6 |  7.6M  |
 
-## 6.Comparisons between different channel depths on Cityscapes. 
+## 6.Comparisons between different channel depths on Cityscapes. (performed on a single RTX 4090 GPU)
 ### Note that the format {., ., ., .,} represents the channel depth in encoder of SAM-UNet, and the channel depth in the decoder and encoder are symmetric. r represents the channel compression ratio.
 |      Model      |            Channel depth           | mIoU | Params | GFLOPs |  FPS |
 |:---------------:|:----------------------------------:|:----:|:------:|:------:|:----:|
@@ -53,5 +53,5 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 * [Baseline + DLED + ESCC](https://www.cityscapes-dataset.com/anonymous-results/?id=417cea22d2b0a4c138c908cae163ddc496ef42420edf763a408aee50ea15a64d)
 * [Baseline + DLED + ESCC + MSIC](https://www.cityscapes-dataset.com/anonymous-results/?id=a962c6795c460027641a810a627ec30a8c52a4868eff7bf8f5f50a1b940f6a1b)
 * [Baseline + ESCC](https://www.cityscapes-dataset.com/anonymous-results/?id=2bca6283315dfe057235e9fca9707a329719a879e7fc0ac0089791ab8adbb394)
-## *A demo video of segmentation: ()
+## *A demo video of segmentation:
 * [YouTube](https://youtube.com/shorts/_H0DLRKsO7Q?feature=share)
