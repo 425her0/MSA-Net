@@ -10,56 +10,13 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 ## 3.Visualization results of MSA-Net on Cityscapes val set. From left to right are input images, ground truth, segmentation outputs.
 ![Image text](results/Fig.6.jpg)
 
-## 4.
-{| class="wikitable" style="text-align:center;"
-|-
-! rowspan="2" | Index
-! rowspan="2" | Baseline
-! rowspan="2" | DLED
-! rowspan="2" | ESCC
-! rowspan="2" | MSIC
-! colspan="2" | mIoU
-! rowspan="2" | Params
-|-
-| Cityscapes
-| VOC 2012 Augment
-|-
-| 1
-| ✓
-| 
-| 
-| 
-| 63.3
-| 45.5
-| 31.0M
-|-
-| 2
-| ✓
-| ✓
-| 
-| 
-| 65.5
-| 58.2
-| 7.0M
-|-
-| 3
-| ✓
-| ✓
-| ✓
-| 
-| 72.6
-| 64.2
-| 7.1M
-|-
-| 4
-| ✓
-| ✓
-| ✓
-| ✓
-| 73.6
-| 65.3
-| 7.6M
-|}
+## 4.Ablation study results of MSA-Net
+| Index | Baseline | DLED | ESCC | MSIC | Cityscapes | VOC 2012 Augment | Params |
+|:-----:|:--------:|:----:|:----:|:----:|:----------:|:----------------:|:------:|
+|   1   |     ✓    |      |      |      |    63.3    |       45.5       |  31.0M |
+|   2   |     ✓    |   ✓  |      |      |    65.5    |       58.2       |  7.0M  |
+|   3   |     ✓    |   ✓  |   ✓  |      |    72.6    |       64.2       |  7.1M  |
+|   4   |     ✓    |   ✓  |   ✓  |   ✓  |    73.6    |       65.3       |  7.6M  |
 
 ## 5.Comparisons with State-of-the-art Results
 ### 'ImN' and 'Coa.' mean pre-training model using ImageNet dataset or the coarse annotation set of Cityscapes dataset. '–' indicates that the corresponding result is not provided by the method.
