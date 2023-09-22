@@ -7,7 +7,8 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 * pytorch 1.11.0
 * Cuda  11.3
 
-## 3.Visualization results of MSA-Net on Cityscapes val set. From left to right are input images, ground truth, segmentation outputs.
+## 3.Visualization results of MSA-Net on Cityscapes val set.
+### From left to right are input images, ground truth, segmentation outputs.
 ![Image text](results/Fig.6.jpg)
 
 ## 4.Ablation study results of MSA-Net on Cityscapes test dataset and enhanced PASCAL VOC 2012 val dataset.
