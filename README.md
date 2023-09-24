@@ -42,12 +42,12 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 ### *The comprehensive experiments show our MSA-Net achieves best trade-off on the Cityscapes dataset in terms of segmentation accuracy and parameters, and exhibits strong generalization on the enhanced PASCAL VOC 2012 dataset.
 ## 6.Comparisons between different channel depths on Cityscapes val dataset. 
 *Performed on a single RTX 4090 GPU
-<br />*Note that the format {., ., ., .,} represents the channel depth in encoder of SAM-UNet, and the channel depth in the decoder and encoder are symmetric. r represents the channel compression ratio.
+<br />*Note that the format {., ., ., .,} represents the channel depth in encoder of MSA-Net, and the channel depth in the decoder and encoder are symmetric. r represents the channel compression ratio.
 |      Model      |            Channel depth           | mIoU | Params | GFLOPs |  FPS |
 |:---------------:|:----------------------------------:|:----:|:------:|:------:|:----:|
-|     SAM-UNet    | {64, 128, 256, 512, 1024 \| r = 1} | 74.7 |  7.6M  |  43.7  | 31.0 |
-| SAM-UNet-Middle | {32, 64, 128, 256, 512 \| r = 0.5} | 72.0 |  1.9M  |  11.4  | 33.7 |
-|  SAM-UNet-Slim  | {16, 32, 64, 128, 256 \| r = 0.25} | 63.8 |  0.5M  |   3.1  | 36.3 |
+|     MSA-Net    | {64, 128, 256, 512, 1024 \| r = 1} | 74.7 |  7.6M  |  43.7  | 31.0 |
+| MSA-Net-Middle | {32, 64, 128, 256, 512 \| r = 0.5} | 72.0 |  1.9M  |  11.4  | 33.7 |
+|  MSA-Net-Slim  | {16, 32, 64, 128, 256 \| r = 0.25} | 63.8 |  0.5M  |   3.1  | 36.3 |
 ## *Results on Cityscapes test set(Anonymous Link)
 * [UNet(Baseline)](https://www.cityscapes-dataset.com/anonymous-results/?id=98b31a77d61d1ec3c42412c7cb7291c75fbb1b382dbdb40983c92aa0420e0526)
 * [Baseline + DLED(Stack-Net-More)](https://www.cityscapes-dataset.com/anonymous-results/?id=2578bf048dfc01c61d0fb3da8f95473f3329dff55ae071549d26eb56ecff9ea4)
