@@ -18,29 +18,9 @@ Code for paper ‘Multi-unit stacked architecture: An urban scene segmentation n
 |   2   |     ✓    |   ✓  |      |      |    65.5    |       58.2       |  7.0M  |
 |   3   |     ✓    |   ✓  |   ✓  |      |    72.6    |       64.2       |  7.1M  |
 |   4   |     ✓    |   ✓  |   ✓  |   ✓  |    73.6    |       65.3       |  7.6M  |
-## 5.Comparisons with State-of-the-art Results
-*'ImN' and 'Coa.' mean pre-training model using ImageNet dataset or the coarse annotation set of Cityscapes dataset. '–' indicates that the corresponding result is not provided by the method.
-|    Model   | Extra data | Resolution | mIoU | Params |
-|:----------:|:----------:|:----------:|:----:|:------:|
-|   SegNet   |     ImN    |   640×360  | 57.0 |  29.5M |
-|   DeepLab  |     ImN    |  1024×512  | 63.1 | 262.1M |
-|  RefineNet |     ImN    |  1024×512  | 73.6 | 118.1M |
-|   PSPNet   |  ImN+Coa.  |   713×713  | 80.2 | 250.8M |
-|    E-Net   |     no     |  1024×512  | 58.3 |  0.36M |
-|  Fast-SCNN |    Coa.    |  1024×512  | 62.8 |  1.14M |
-|    CGNet   |     no     |  1024×512  | 64.8 |  0.5M  |
-|   ERF-Net  |     no     |  1024×512  | 68.0 |  20.0M |
-|  DFA-Net B |     no     |  1024×1024 | 67.1 |  4.8M  |
-|   AGLNet   |     no     |  1024×512  | 70.1 |  1.12M |
-|  DFANet A  |     no     |  1024×1024 | 71.3 |  7.8M  |
-| Bise-Netv1 |     ImN    |  1024×512  | 71.4 |  5.8M  |
-|   MFENet   |     no     |  1024×512  | 72.4 |  8.0M  |
-| Bise-Netv2 |     ImN    |  2048×1024 | 72.6 |    -   |
-| Ghost-UNet |     no     |   512×512  | 73.2 |  5.8M  |
-|    Ours    |     no     |   512×512  | 73.6 |  7.6M  |
 
 ### *The comprehensive experiments show our MSA-Net achieves best trade-off on the Cityscapes dataset in terms of segmentation accuracy and parameters, and exhibits strong generalization on the enhanced PASCAL VOC 2012 dataset.
-## 6.Comparisons between different channel depths on Cityscapes val dataset. 
+## 5.Comparisons between different channel depths on Cityscapes val dataset. 
 *Performed on a single RTX 4090 GPU
 <br />*Note that the format {., ., ., .,} represents the channel depth in encoder of MSA-Net, and the channel depth in the decoder and encoder are symmetric. r represents the channel compression ratio.
 |      Model      |            Channel depth           | mIoU | Params | GFLOPs |  FPS |
